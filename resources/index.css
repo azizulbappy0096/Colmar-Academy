@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 1.5rem;
+    max-height: 2rem;
+}
+
+.logo h3 {
+    color: hsla(0, 0%, 0% , 0.7);
+}
+
+.logo span {
+    color: hsla(0, 0%, 50% , 0.6);
+}
+
+nav {
+    padding: 1.5rem;
+}
+
+nav ul li {
+    display: inline;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color:  hsla(0, 0%, 50% , 1);
+}
