@@ -15,6 +15,23 @@ a , li {
     text-decoration: none;
 }
 
+h1  {
+    color: rgb(59, 56, 56);
+}
+
+h2  {
+    color: rgb(59, 56, 56);
+}
+
+p , span{
+    color: hsla(0, 0%, 50% , 1);
+    line-height: 1.3;
+}
+
+.content {
+    padding: 1.3rem;
+}
+
 header .desktop {
     display: flex;
     align-items: center;
@@ -72,6 +89,7 @@ nav a {
 
 .bcontent {
     width: 40%;
+    padding: 2rem;
     max-width: fit-content;
 }
 
@@ -92,7 +110,7 @@ nav a {
     padding: 0.8rem 7rem;
 }
 
-.button a{
+.button a {
     text-align: center;
     color:  rgba(209, 202, 202, 1);
 }
@@ -103,9 +121,7 @@ nav a {
    
 }
 
-#information h1 {
-    color: rgb(59, 56, 56);
-}
+
 
 #information p {
     color: hsla(0, 0%, 50% , 1);
@@ -125,7 +141,7 @@ nav a {
 
 .campinfo {
     max-width: 40%;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
 }
 
 .addiinfo {
@@ -142,10 +158,51 @@ nav a {
     width: 65%;
 }
 
-.addiinfo .content {
-    padding: 1.3rem;
+.content p , .content h1 , .content h2{
+    padding-bottom: .69rem;
 }
 
-.content p , .content h1 {
-    padding-bottom: .69rem;
+.education {
+    padding: 2rem 10% ; 
+    background-color: hsla(0, 0%, 50% , 0.2);
+}
+
+.h1 {
+    padding-bottom: 2rem;
+    text-align: center;
+    color:  rgb(59, 56, 56);
+}
+
+.courses {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.subjects {
+    max-width: 30%;
+    background-color: ivory;
+    margin-bottom: 1rem;
+}
+
+.exhibit  {
+    
+}
+
+.thesis {
+    display: inline-flex;
+}
+
+video {
+    max-width: 100%;
+}
+
+footer {
+    border-top: 1px solid rgba(92, 85, 85, 0.514) ;
+    display: flex;
+    padding: 1rem 1.5rem;
+}
+
+footer p{
+    flex-grow: 2;
 }
