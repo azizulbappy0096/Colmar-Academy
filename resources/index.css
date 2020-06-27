@@ -46,3 +46,43 @@ nav a {
     text-decoration: none;
     color:  hsla(0, 0%, 50% , 1);
 }
+
+#banner {
+    display: inline-flex;
+    align-items: center;
+    background-color: hsla(0, 0%, 50% , 0.4);
+    padding: 2rem 1.5rem;
+    color: rgb(77, 74, 74);
+}
+
+.bimg img{
+    max-width: 100%;
+}
+
+.bcontent {
+    padding: 1.8rem;
+    max-width: fit-content;
+}
+
+.bcontent h1 , p , .button {
+    padding: 1rem 0;
+}
+
+.bcontent h1 {
+    font-size: 3rem;
+}
+
+.bcontent p {
+    font-size: 1.5rem;
+}
+
+.button {
+    background-color: rgb(68, 64, 64);
+    padding: 0.8rem 7rem;
+}
+
+.button a{
+    text-decoration: none;
+    text-align: center;
+    color:  rgb(77, 74, 74);
+}
