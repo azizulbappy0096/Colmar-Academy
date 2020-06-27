@@ -28,8 +28,30 @@ p , span{
     line-height: 1.3;
 }
 
+img {
+    max-width: 100%;
+}
+
 .content {
     padding: 1.3rem;
+}
+
+.commonpad {
+    padding: 2rem 1.5rem;
+    display: inline-flex;
+}
+
+.content p , .content h1 , .content h2{
+    padding-bottom: .69rem;
+}
+
+.bimg  , .infoimg , .video{
+    width: 60%;
+    padding-right: 1.8rem;
+}
+
+.campinfo {
+    max-width: 40%;
 }
 
 header .desktop {
@@ -70,22 +92,12 @@ nav a {
     display: none;
 }
 
-#banner {
-    display: inline-flex;
+#banner { 
     align-items: center;
     background-color: hsla(0, 0%, 50% , 0.4);
-    padding: 2rem 1.5rem;
     color: rgb(77, 74, 74);
 }
 
-.bimg  , .infoimg {
-    width: 60%;
-    padding-right: 1.8rem;
-}
-
- img {
-    max-width: 100%;
-}
 
 .bcontent {
     width: 40%;
@@ -115,22 +127,6 @@ nav a {
     color:  rgba(209, 202, 202, 1);
 }
 
-
-#information {
-    display: inline-flex;
-   
-}
-
-
-
-#information p {
-    color: hsla(0, 0%, 50% , 1);
-}
-
-.infoimg {
-    padding: 2rem 1.5rem;
-}
-
 .infoimg img {
     padding-bottom: 2rem;
 }
@@ -139,14 +135,9 @@ nav a {
     padding-bottom: 1.5rem;
 }
 
-.campinfo {
-    max-width: 40%;
-    padding: 2rem 0;
-}
-
 .addiinfo {
     display: inline-flex;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
     align-items: center;
 }
 
@@ -156,10 +147,6 @@ nav a {
 
 .addiinfo .content {
     width: 65%;
-}
-
-.content p , .content h1 , .content h2{
-    padding-bottom: .69rem;
 }
 
 .education {
@@ -185,8 +172,8 @@ nav a {
     margin-bottom: 1rem;
 }
 
-.exhibit  {
-    
+#exhibit  {
+    display: block;
 }
 
 .thesis {
