@@ -11,7 +11,11 @@ html {
     font-size: 16px;
 }
 
-header {
+a , li {
+    text-decoration: none;
+}
+
+header .desktop {
     display: flex;
     align-items: center;
 }
@@ -38,13 +42,15 @@ nav {
 
 nav ul li {
     display: inline;
-    text-decoration: none;
     padding: 1rem;
 }
 
 nav a {
-    text-decoration: none;
     color:  hsla(0, 0%, 50% , 1);
+}
+
+.mobile {
+    display: none;
 }
 
 #banner {
@@ -55,17 +61,22 @@ nav a {
     color: rgb(77, 74, 74);
 }
 
-.bimg img{
+.bimg  , .infoimg {
+    width: 60%;
+    padding-right: 1.8rem;
+}
+
+ img {
     max-width: 100%;
 }
 
 .bcontent {
-    padding: 1.8rem;
+    width: 40%;
     max-width: fit-content;
 }
 
-.bcontent h1 , p , .button {
-    padding: 1rem 0;
+.bcontent h1 , .bcontent p , .button {
+    margin: 2rem 0;
 }
 
 .bcontent h1 {
@@ -82,7 +93,59 @@ nav a {
 }
 
 .button a{
-    text-decoration: none;
     text-align: center;
-    color:  rgb(77, 74, 74);
+    color:  rgba(209, 202, 202, 1);
+}
+
+
+#information {
+    display: inline-flex;
+   
+}
+
+#information h1 {
+    color: rgb(59, 56, 56);
+}
+
+#information p {
+    color: hsla(0, 0%, 50% , 1);
+}
+
+.infoimg {
+    padding: 2rem 1.5rem;
+}
+
+.infoimg img {
+    padding-bottom: 2rem;
+}
+
+.infoimg h1 {
+    padding-bottom: 1.5rem;
+}
+
+.campinfo {
+    max-width: 40%;
+    padding: 2rem 1rem;
+}
+
+.addiinfo {
+    display: inline-flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+.addiinfo .infoimgs {
+    width: 35%;
+}
+
+.addiinfo .content {
+    width: 65%;
+}
+
+.addiinfo .content {
+    padding: 1.3rem;
+}
+
+.content p , .content h1 {
+    padding-bottom: .69rem;
 }
