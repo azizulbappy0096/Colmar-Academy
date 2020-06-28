@@ -205,3 +205,90 @@ footer p{
         font-size: 1.3rem;
     }
 }
+
+@media only screen and (max-width: 1023px) and (min-width: 769px) {
+    body {
+        margin: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+    header .desktop , .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    .commonpad {
+        display: block;
+    }
+
+    .bimg, .infoimg, .video {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .bcontent {
+        width: 100%;
+        padding: 2rem 1.5rem;
+        max-width: fit-content;
+    }
+
+    #banner {
+        padding: 0;
+    }
+
+    .button {
+        padding: 0.8rem 9.5rem;
+        margin: 1rem 0;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .campinfo {
+        max-width: 100%;
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .addiinfo {
+        display: block;
+        padding: 0;
+    }
+
+    .addiinfo .infoimgs {
+        width: 100%; 
+    }
+
+    .addiinfo .content {
+        width: 100%; 
+    }
+
+    .education {
+        padding: 0rem 5%;
+        background-color: rgba(233, 218, 218, 0.2);
+    }
+
+    .h1 {
+        padding: 1rem;
+    }
+
+    .mscontainer {
+        display: block;
+    }
+
+    .msubjects {
+        background-color: rgba(187, 185, 185 , 0.5);
+        padding: 1.5rem 1rem;
+        margin: .5rem 0;
+    }
+
+    footer span {
+        display: none;
+    }
+}
