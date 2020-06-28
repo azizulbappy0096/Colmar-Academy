@@ -250,6 +250,10 @@ footer p{
         justify-content: center;
     }
 
+    .button a {
+        text-align: unset;
+    }
+
     .campinfo {
         max-width: 100%;
         width: 100%;
